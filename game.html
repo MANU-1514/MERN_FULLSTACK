@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <h2>Rock Paper Scissors</h2>
+  <button onclick="play('rock')">Rock</button>
+  <button onclick="play('paper')">Paper</button>
+  <button onclick="play('scissors')">Scissors</button>
+
+  <p id="output"></p>
+
+  <script>
+    let userScore = 0, computerScore = 0;
+
+    function play(user) {
+      const choices = ['rock', 'paper', 'scissors'];
+      const computer = choices[Math.floor(Math.random() * 3)];
+      let result = user === computer ? "Draw" :
+        (user === 'rock' && computer === 'scissors') ||
+        (user === 'scissors' && computer === 'paper') ||
+        (user === 'paper' && computer === 'rock') ? "You Win" : "You Lose";
+
+      if (result === "You Win") userScore++;
+      else if (result === "You Lose") computerScore++;
+
+      document.getElementById("output").innerText =
+        You: ${user}, Computer: ${computer} → ${result}\nScore - You: ${userScore}, Computer: ${computerScore};
+    }
+  </script>
+</body>
+</html>
