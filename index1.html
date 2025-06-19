@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .c {
+            display: flex;
+            flex-direction: row;
+            background-color: #fff;
+            border: 2px solid #444;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            margin-bottom: 25px;
+            width: 850px;
+        }
+
+        .c img {
+            width: 300px;
+            height: 450px;
+            object-fit: cover;
+        }
+
+        .info {
+            padding: 20px;
+            width: 100%;
+        }
+
+        .info h3 {
+            margin-top: 0;
+            font-size: 22px;
+            color: #222;
+        }
+
+        .info .genre {
+            font-weight: bold;
+            color: #c0392b;
+            margin-bottom: 10px;
+        }
+
+        .info p {
+            font-size: 15px;
+            color: #444;
+            margin: 6px 0;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .floating-box {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 250px;
+            background-color: #222;
+            color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            font-family: Arial, sans-serif;
+            z-index: 1000;
+        }
+
+        .floating-box h4 {
+            margin: 0 0 8px;
+            font-size: 16px;
+            color: #f39c12;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="c">
+        <img src="https://www.classic-monsters.com/wp-content/uploads/2020/02/Friday-the-13th_01-poster.jpg" alt="Friday the 13th"/>
+        <div class="info">
+            <h3>Friday the 13th (1980)</h3>
+            <p class="genre">Genre: Slasher, Horror</p>
+            <p><span class="label">Director:</span> Sean S. Cunningham</p>
+            <p><span class="label">Release Year:</span> 1980</p>
+            <p><span class="label">IMDb Rating:</span> 6.4/10</p>
+            <p><span class="label">Plot:</span> Camp Crystal Lake reopens after years of tragedy, only to have its new counselors brutally murdered by an unknown assailant.</p>
+            <p><span class="label">Notable:</span> Birth of horror icon Jason Voorhees, classic slasher formula.</p>
+        </div>
+    </div>
+
+    <div class="c">
+        <img src="https://picfiles.alphacoders.com/153/thumb-1920-153462.jpg" alt="Texas Chainsaw Massacre"/>
+        <div class="info">
+            <h3>The Texas Chainsaw Massacre (1974)</h3>
+            <p class="genre">Genre: Horror, Thriller</p>
+            <p><span class="label">Director:</span> Tobe Hooper</p>
+            <p><span class="label">Release Year:</span> 1974</p>
+            <p><span class="label">IMDb Rating:</span> 7.4/10</p>
+            <p><span class="label">Plot:</span> A group of friends stumble upon a cannibalistic family in Texas. Their weekend becomes a horrifying survival fight.</p>
+            <p><span class="label">Notable:</span> Introduced Leatherface, disturbing realism, grainy visual style.</p>
+        </div>
+    </div>
+
+    <div class="c">
+        <img src="https://es.web.img3.acsta.net/c_310_420/pictures/23/05/22/23/33/0283734.png" alt="Terrifier"/>
+        <div class="info">
+            <h3>Terrifier (2016)</h3>
+            <p class="genre">Genre: Gore, Slasher</p>
+            <p><span class="label">Director:</span> Damien Leone</p>
+            <p><span class="label">Release Year:</span> 2016</p>
+            <p><span class="label">IMDb Rating:</span> 5.6/10</p>
+            <p><span class="label">Plot:</span> A night of Halloween terror unfolds as Art the Clown relentlessly stalks and mutilates his victims.</p>
+            <p><span class="label">Notable:</span> Modern cult favorite, extremely graphic violence, silent killer.</p>
+        </div>
+    </div>
+
+    <div class="c">
+        <img src="https://www.horror.land/wp-content/uploads/2016/12/The_Offering_Poster.jpg" alt="The Offering"/>
+        <div class="info">
+            <h3>The Offering (2016)</h3>
+            <p class="genre">Genre: Supernatural Horror</p>
+            <p><span class="label">Director:</span> Kelvin Tong</p>
+            <p><span class="label">Release Year:</span> 2016</p>
+            <p><span class="label">IMDb Rating:</span> 3.8/10</p>
+            <p><span class="label">Plot:</span> When a journalist investigates a death in Singapore, she uncovers a terrifying curse tied to ancient rituals and supernatural forces.</p>
+            <p><span class="label">Notable:</span> Asian horror influences, demonic possessions, and chilling mythological themes.</p>
+        </div>
+    </div>
+
+    <div class="c">
+        <img src="https://media.senscritique.com/media/000005201689/0/saw.jpg" alt="Saw 2004"/>
+        <div class="info">
+            <h3>Saw (2004)</h3>
+            <p class="genre">Genre: Psychological Horror, Mystery</p>
+            <p><span class="label">Director:</span> James Wan</p>
+            <p><span class="label">Release Year:</span> 2004</p>
+            <p><span class="label">IMDb Rating:</span> 7.6/10</p>
+            <p><span class="label">Plot:</span> Two men must play a sadistic game of survival while being watched by a twisted serial killer named Jigsaw.</p>
+            <p><span class="label">Notable:</span> Plot twists, minimalistic set, created a long-running horror franchise.</p>
+        </div>
+    </div>
+
+    <div class="c">
+        <img src="https://posterspy.com/wp-content/uploads/2023/09/Saw-X-Poster-9-min.jpg" alt="Saw X"/>
+        <div class="info">
+            <h3>Saw X (2023)</h3>
+            <p class="genre">Genre: Horror, Revenge</p>
+            <p><span class="label">Director:</span> Kevin Greutert</p>
+            <p><span class="label">Release Year:</span> 2023</p>
+            <p><span class="label">IMDb Rating:</span> 6.5/10</p>
+            <p><span class="label">Plot:</span> A sick and betrayed John Kramer targets a fake cancer treatment center with his most personal traps yet.</p>
+            <p><span class="label">Notable:</span> Blends personal emotion with horror, fan-favorite return of Jigsaw, creative new traps.</p>
+        </div>
+    </div>
+
+    <!-- Floating Tip Box -->
+    <div class="floating-box">
+        <h4>👻 Horror Tip</h4>
+        <p>Never watch these alone at night... 😱<br>Lights off = Instant regret!</p>
+    </div>
+
+</body>
+</html>
