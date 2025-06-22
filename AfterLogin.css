@@ -1,0 +1,40 @@
+.after-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.after-box {
+  text-align: center;
+  color: white;
+  padding: 40px 60px;
+  font-family: Arial, sans-serif;
+}
+
+.after-box h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.after-box p {
+  font-size: 20px;
+  color: #bbbbbb;
+}
+
+.after-box button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.after-box button:hover {
+  background-color: #21a1f1;
+}
